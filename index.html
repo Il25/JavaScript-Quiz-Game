@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/main.css">
+    <title>JS Quiz game</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <h1 class="title">Викторина по знанию языка программирования JavaScript!<br>Проверь себя!</h1>
+        </header>
+        <main>
+            <section class="blocks">
+                <div class="question_blocks">
+                    <div class="question_block" id="first">
+                        <p class="question">1.Внутрь какого HTML-элемента вставляется JavaScript?</p>
+                        <p class="answer">a. script</p>
+                        <p class="answer">b. scripting</p>
+                        <p class="answer">c. js</p>
+                        <p class="answer">d. javascript</p>
+                    </div>
+                    <div class="question_block" id="second">
+                        <p class="question">2.Чем относительно переменной является идентификатор?</p>
+                        <p class="answer">a. Типом данных</p>
+                        <p class="answer">b. Ее именем</p>
+                        <p class="answer">c. Ее ключом</p>
+                        <p class="answer">d. Ее значением</p>
+                    </div>
+                    <div class="question_block" id="third">
+                        <p class="question">3.Какое имя переменной является недопустимым?</p>
+                        <p class="answer">a. $my_div</p>
+                        <p class="answer">b. #bigCat</p>
+                        <p class="answer">c. _dummy</p>
+                        <p class="answer">d. _div1</p>
+                    </div>
+                    <div class="question_block" id="fourth">
+                        <p class="question">4.С помощью каких ключевых слов в JavaScript объявляются переменные?</p>
+                        <p class="answer">a. var</p>
+                        <p class="answer">b. const, let </p>
+                        <p class="answer">c. var, let, const </p>
+                        <p class="answer">d. только var</p>
+                    </div>
+                    <div class="question_block" id="fifth">
+                        <p class="question">5.Что выведет в консоль код приведённый ниже? <br>
+                            if (true) {<br>
+                                var x = "Hello, world!";<br>
+                            }<br>
+                            console.log(x);
+                        </p>
+                        <p class="answer">a. Hello, world!</p>
+                        <p class="answer">b. null</p>
+                        <p class="answer">c. Сообщение об ошибке</p>
+                        <p class="answer">d. undefined</p>
+                    </div>
+                    <div class="question_block" id="sixth">
+                        <p class="question">6.Что произойдёт при выполнении кода приведённого ниже?<br>
+                            if (true) {<br>
+                               let x = 123;<br>
+                            }<br>
+                            console.log(x);<br>
+                        </p>
+                        <p class="answer">a. Будет выдано сообщение об ошибке "Error: x is not defined"</p>
+                        <p class="answer">b. В консоли будет выведено 123</p>
+                        <p class="answer">c. B консоли будет выведено undefined</p>
+                        <p class="answer">d. В консоли будет выведено NaN</p>
+                    </div>
+                    <div class="question_block" id="seventh">
+                        <p class="question">7.Являются ли bigCat и bigcat одной и той же переменной в JS?</p>
+                        <p class="answer">a. Да</p>
+                        <p class="answer">b. Нет</p>
+                        <p class="answer">c. Только при работе с Node.js</p>
+                        <p class="answer">d. Только при работе с React.js</p>
+                    </div>
+                    <div class="question_block" id="eighth">
+                        <p class="question">8.Какое из имен переменных будет предпочтительней?</p>
+                        <p class="answer">a. spd</p>
+                        <p class="answer">b. sp</p>
+                        <p class="answer">c. s</p>
+                        <p class="answer">d. speed</p>
+                    </div>
+                    <div class="question_block" id="ninth">
+                        <p class="question">9.Можно ли переменную назвать case?</p>
+                        <p class="answer">a. Нет, переменная должна начинаться с $</p>
+                        <p class="answer">b. Нет, это зарезервированное слово</p>
+                        <p class="answer">c. Да, это допустимое имя для переменной</p>
+                        <p class="answer">d. Нет, переменная должна начинаться с _</p>
+                    </div>
+                    <div class="question_block" id="tenth">
+                        <p class="question">10.Допустимо ли в JavaScript объявление нескольких переменных в одной строке?</p>
+                        <p class="answer">a. Только с let и const</p>
+                        <p class="answer">b. Нет</p>
+                        <p class="answer">c. Только с const</p>
+                        <p class="answer">d. Да</p>
+                    </div>
+                </div>
+                <div><button class="button" id="btn">Завершить</button></div>
+            </section>         
+        </main>
+        <footer class="footer">
+            By Ilona Chernyavskaya
+        </footer>  
+    </div>
+    <script src="script/script.js"></script>
+</body>
+</html>
